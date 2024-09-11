@@ -3,13 +3,6 @@
 
 ```mermaid
 graph TD
-text --> mindmap
-pic --> mindmap
-
-get --pathname--> webapp
-post --update--> tgsvr
-
-graph TD
     A(人生主线) --> B(健康)
     B --> C(身体)
     C --> D(早睡早起)
